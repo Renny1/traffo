@@ -1,0 +1,437 @@
+/* Empty. Add your own CSS if you like */
+
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.center{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.displayNone{
+    display:none;
+}
+.login{
+    padding: 0px 0px 0px 0px;
+    margin: 21px 0px 0px 0px;
+}
+
+.img-responsive{max-width: 100%;height: auto;}
+
+.imgLogo{
+    margin-top: -71px;
+    padding-bottom: 13px;
+}
+.imgPosition{
+    position:absolute;
+}
+.imgLogoMenu{
+    /* height:50px; */
+    margin-top: 23px;
+}
+.formInput{
+    margin-top: -44px!important;
+}
+header{
+    height:50px;
+}
+.bar.bar-dark {
+    height:50px!important;
+}
+
+.menu .bar-header {
+height:80px!important;
+}
+.ion-navicon{
+    margin:0px 0px 0px 0px;
+}
+
+.platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) > * {
+    margin-top: 4px;
+}
+
+.menusidebar{
+    top: 80px!important;
+}
+.title{
+    font-size: 18px!important;
+    margin-top: 20px!important;
+}
+.titleInternal{float:left;font-weight: 500;}
+.dataDia{
+    font-size:14px;
+    float:left;
+    font-style: italic;
+    margin: 1px 0px 0px 9px;
+    font-weight: 500;
+}
+.listAgendaDoDia .horario{
+float:left;
+font-size:16px;
+}
+.cliCon{
+    margin-left: 45px;
+    float: left;
+}
+.listAgendaDoDia .cliente{
+    font-size:16px;
+}
+.listAgendaDoDia .contato{font-size: 16px;font-style: italic;color: #99A;}
+.listAgendaDoDia .item{
+    padding: 10px;
+
+
+}
+
+.textAlignCenter{
+text-align:center
+  }
+
+#interno .item-complex .item-content, .item-radio .item-content {
+ 
+   padding: 0px;
+
+}
+.listInput input{
+background-color: #FFF;
+
+}
+.listAgendaDoDia .imgFeedback{
+    /* width: 35px; */
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.listAgendaDoDia img{
+    width: 38px;
+}
+
+.scrollable{
+    display:none;
+}
+.calendar-navbar {
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+
+.item-input input::-webkit-input-placeholder {
+   color: #99A;
+}
+
+.item-input input:-moz-placeholder { /* Firefox 18- */
+   color:  #99A;  
+}
+
+.item-input input::-moz-placeholder {  /* Firefox 19+ */
+   color:  #99A;  
+}
+
+.item-input input:-ms-input-placeholder {  
+   color:  #99A;  
+}
+
+.iconMenu{font-size: 19px;margin-right: 15px;/* margin-top: 9px; *//* padding-top: 9px; */float: left;}
+
+.titleMenu{font-size: 17px;margin-top: 0px;float: left;}
+
+.bgLogin {
+    /*    background: url('../img/beacon2.png') no-repeat;
+    background-position-y: 113%;*/
+    /* background-size: 141px; 
+    background-position-x: 50%;*/
+    background-color: #691026;
+    }
+
+.imgBeaconMenu{width: 45px;height: 45px;margin-top: 12px!important;}
+
+
+.loading-container .loading {
+
+    background-color: rgba(0, 0, 0, 0.0);
+
+}
+.usuarioImgName{width: 100px;height: 100px;}
+
+canvas#canvas {
+ background-color:#ccc;
+
+}
+.no-border {
+    border: none;
+}
+
+.user {
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.84);
+    margin-bottom: 5px;
+}
+
+.current-user {
+    float: right;
+    clear: both;
+    background-color: transparent;
+    padding: 10px 16px 0px 16px;
+}
+
+.not-current-user {
+    float: left;
+    clear: both;
+    background-color: transparent;
+    padding: 10px 16px 0px 16px;
+}
+
+.current-user .details {
+    background-color: #dcf8c7;
+    border-radius: 6px;
+    float: right;
+}
+
+.not-current-user .details {
+    background-color: #FFF;
+    border-radius: 6px;
+}
+.backgroundChat{
+    background: url("../img/background-chat.jpg");
+    background-size: 100%;
+}
+.quitChat{font-size: 28px;margin: 4px 3px 3px 5px;}
+.padding {
+    padding: 4px 10px 10px 10px;
+}
+small {
+    font-size: 74%;
+    display: block;
+    vertical-align: baseline;
+    width: auto;
+    clear: both;
+    white-space: nowrap;
+}
+.details{
+    /* width: 95.4%; */
+}
+
+.backgroundChat .bar.bar-positive {
+    border-color: #444444;
+    background-color: #444444;
+    background-image: linear-gradient(0deg, #444444, #444444 50%, transparent 50%);
+    color: #fff;
+}
+.backgroundChat .bar.bar-positive.bar-footer {
+    background-image: linear-gradient(0deg, #444444, #444444 50%, transparent 50%);
+}
+.backgroundChat .card {
+    overflow: hidden;
+    margin: 34px 10px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.backgroundChat .scroll-content {
+    top: 24px!important;
+}
+.backgroundChat .list:last-child {
+    margin-top: 29px!important;
+}
+.users_icon {
+
+width:35px;
+float:right;
+}
+
+.codLabel div{
+    color:#fff!important;
+    font-size:15px!important;
+}
+.inputCod input{
+    width:60px!important;
+    padding-left:3px;
+    text-transform: uppercase;
+}
+.signSocial{display:none;margin-top: -3px;}
+.button.button-energized {
+    border-color: transparent;
+    background-color: #444;
+    color: #fff;
+    line-height: 13px;
+    min-height: 29px;
+    margin-top: 9px;
+    width: 59px;
+    font-size: 12px;
+    /* color: #444; */
+    padding-top: 7px;
+    white-space: nowrap;
+}
+.desativedButton{
+    background-color: rgba(68, 68, 68, 0.23)!important;
+    color: rgba(255, 255, 255, 0.31)!important;
+}
+.centerButtons{
+      height: 141px;
+}
+.avisoServiceCadastrado{
+color:#FFF;
+
+
+}
+@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:441px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
+.bar.bar-dark {
+    height: 69px!important;
+}
+.bar-dark .button.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #fff;
+    font-size: 23px;
+        margin-top: 10px;
+    margin-left: 9px;
+}
+
+.dataDia {
+    font-size: 19px;
+    float: left;
+    font-style: italic;
+    margin: 1px 0px 0px 9px;
+    font-weight: 500;
+}
+
+.menu .bar-header {
+    height: 114px!important;
+}
+/*.menu-animated {
+    width:475px;
+    transform: translate3d(475px, 0px, 0px)!important;
+}
+
+
+.menu-left {
+        width: 475px!important;
+    z-index: 0;
+
+ }
+*/
+
+/*ion-side-menu{ 
+width: 475px!important;
+ }
+*/
+.input-label {
+    display: table;
+    padding: 7px 10px 7px 0px;
+    max-width: 200px;
+    width: 35%;
+    color: #444;
+    font-size: 30px;
+}
+.imgBeaconMenu {
+    width: 83px;
+    height: 83px;
+    margin-top: 11px!important;
+}
+
+.bar .button.button-icon .icon:before, .bar .button.button-icon:before, .bar .button.button-icon.icon-left:before, .bar .button.button-icon.icon-right:before, .bar button.button-icon .icon:before, .bar button.button-icon:before, .bar button.button-icon.icon-left:before, .bar button.button-icon.icon-right:before {
+    vertical-align: top;
+    font-size: 48px;
+    line-height: 32px;
+}
+.listAgendaDoDia .contato {
+    font-size: 21px;
+    font-style: italic;
+    color: #99A;
+}
+.listAgendaDoDia .horario {
+    float: left;
+    font-size: 25px;
+    margin-left: 7px;
+    margin-top: 6px;
+}
+.cliCon {
+    margin-left: 77px;
+    float: left;
+    margin-top: 7px;
+}
+.listAgendaDoDia .cliente {
+    font-size: 25px;
+}
+
+.listAgendaDoDia img {
+    width: 55px;
+}
+
+.title{ 
+
+font-size: 28px!important; 
+margin-top: 38px!important;
+
+ }
+
+.menusidebar {
+    top: 115px!important;
+}
+
+.titleMenu {
+    font-size: 27px;
+    margin-top: 6px;
+    float: left;
+    margin-left: 20px;
+}
+
+.iconMenu {
+    font-size: 37px;
+    margin-right: 18px;
+    /* margin-top: 9px; */
+    /* padding-top: 9px; */
+    float: left;
+    margin-left: 8px;
+}
+.item-input input::-webkit-input-placeholder {
+   font-size:23px;
+   
+}
+.bgLogin .item-input input {
+    line-height: 33px;
+    font-size: 20px;
+}
+.item-input input{ 
+  line-height: 33px;
+ }
+
+.button.button-dark {
+
+    font-size: 23px;
+}
+
+
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }

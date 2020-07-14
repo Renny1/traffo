@@ -1,0 +1,44 @@
+<ion-view view-title="" name="chat" class="backgroundChat">
+<!--     <header class="bar bar-header bar-positive">
+        <h1 class="title"></h1>
+        <button class="button button-assertive" ng-click="leaveRoom()">Leave</button>
+    </header> -->
+    <ion-nav-buttons side="left">
+        <span class="iconMenu ion-ios-arrow-back quitChat" ng-click="leaveRoom('Chat')"></span>
+        <div class="button button-clear hdr-logo"><!-- <img src='img/logompr_v2.png'/> --></div>
+        <div class="button button-clear tit_logado"><span class="titleInternal">Chat</div><span class="qtd">{{qtd}}<img src="img/users_icon.png" class="users_icon" /></span>
+    </ion-nav-buttons>
+
+  <ion-content class="has-header">
+
+    <div class="list" ng-if="messages.length > 0">
+        <li class="item item-text-wrap no-border {{ isNotCurrentUser(msg.id) }}" ng-repeat="msg in messages">
+            <div class="msg">
+                <div class="details padding">
+                    <p>
+                        <div class="user {{ isNotCurrentUserToName(msg.id, msg.advice) }}">{{ msg.user }}</div>
+                        <div class="message">{{ msg.text }}</div>
+                    </p>
+                    <small>{{ humanize(msg.time) }}</small>
+                </div>
+            </div>
+        </li>
+    </div>
+
+    <div class="card" ng-if="!messages.length">
+      <div class="item item-text-wrap">
+        <center>{{ current_user }} seja bem vindo </center>
+      </div>
+    </div>
+
+  </ion-content>
+
+
+<footer class="bar bar-footer bar-positive item-input-inset">
+    <label class="item-input-wrapper">
+      <input type="text" id="message" name="message" ng-model="message" placeholder="Digite a mensagem">
+    </label>
+    <a class="button button-icon icon ion-android-send" ng-click="sendTextMessage()"></a>
+</footer>
+
+</ion-view>

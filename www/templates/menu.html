@@ -1,0 +1,30 @@
+<ion-side-menus>
+    <ion-side-menu-content drag-content="true">
+        <ion-nav-bar class="bar-dark nav-title-slide-ios7"></ion-nav-bar>
+        <ion-nav-view name="menuContent" animation="slide-left-right"></ion-nav-view>
+    </ion-side-menu-content>
+    <ion-side-menu width="myWidthValue + widthMenu" side="left" >
+        <header class="bar bar-header bar-dark">
+          <!-- <img src='img/beacon1.png' class="imgBeaconMenu"/> --><div class="usuarioImgName center"></div><!--  <img src='url' ng-if="url == ''"/> <img src='url' ng-if="url != ''"/> --> <h2 class="title">{{name}}<!-- <img src='img/flat-design/logos/logo-mpr-menu-side.png'/> --></h2>
+        </header>
+        <ion-content class="has-header menusidebar">
+            <ion-list>
+                <ion-item nav-clear menu-close href="#/app/inicio"><span class="iconMenu ion-android-walk"></span><span class="titleMenu">Home</span></ion-item>
+             
+                <!-- <ion-item nav-clear menu-close href="#/app/mapa"><span class="iconMenu ion-map"></span><span class="titleMenu">Mapa</span></ion-item> -->
+
+                <ion-item nav-clear menu-close href="#/app/convidados"><span class="iconMenu ion-map"></span><span class="titleMenu">Convidados</span></ion-item>
+
+                <ion-item nav-clear menu-close href="#/app/enterChat"><span class="iconMenu ion-map"></span><span class="titleMenu">Chat</span></ion-item>
+
+                <ion-item href="javascript:void(0)" ng-click="getBack()"><span class="iconMenu ion-arrow-left-a"></span><span class="titleMenu">Sair</span></ion-item>
+            </ion-list>
+
+            <div class="row center">
+    <div class="col-67">
+        <img src="img/quadri.png" class="img-responsive imgLogoMenu">
+    </div>
+</div>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>
